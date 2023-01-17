@@ -6,26 +6,33 @@ body {
 /* main styles */
 
 .main {
-  display: flex;
-  flex-direction: row-reverse;
+  
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
 }
 
 .main-content {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  /* padding: 60px 90px; */
+  padding: 20px 40px;
+  flex-grow: 1;
 }
 
-.second-content {
+/* .second-content {
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 
 /* about styles  */
 .about {
-  margin-bottom: 40px;
   background-color: #1e2939;
   padding: 20px;
 }
@@ -33,7 +40,7 @@ body {
 .about-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 17px;
   color: #fb6d3a;
   margin-bottom: 20px;
@@ -55,10 +62,10 @@ body {
 .about-desctiption {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
-  width: 400px;
+  
 }
 
 /* .projects */
@@ -84,7 +91,7 @@ body {
 .project-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #000000;
 }
@@ -93,7 +100,7 @@ body {
 .project-item {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
   list-style: none;
@@ -104,7 +111,7 @@ body {
 .project-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -118,23 +125,18 @@ body {
 .project-description {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
-  width: 400px;
  
 }
 
 /* work styles */
 
-.work {
-  margin-bottom: 45px;
-}
-
 .work-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
@@ -143,7 +145,7 @@ body {
 .organization {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
 }
@@ -151,7 +153,7 @@ body {
 .period {
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -160,7 +162,7 @@ body {
 .line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #000000;
 }
@@ -173,7 +175,7 @@ body {
 .work-list-item {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -192,7 +194,7 @@ body {
 .specialization {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 10px;
@@ -202,21 +204,20 @@ body {
 
 .sidebar {
   background-color: #1e2939;
-  padding-top: 40px;
-  width: 370px;
+  padding-bottom: 20px;
 }
 .photo {
-  width: 240px;
+  width: 280px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 65px;
   padding-left: 40px;
-  padding-top: 140px;
+  padding-right: 40px;
 }
 .contacts,
 .tech-skills,
 .soft-skills,
 .languages {
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
 .contacts {
@@ -240,7 +241,7 @@ body {
 .contact-type {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   margin-right: 10px;
@@ -249,7 +250,7 @@ body {
 .contact-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
@@ -275,7 +276,7 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -302,6 +303,6 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
